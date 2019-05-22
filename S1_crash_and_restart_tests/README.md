@@ -1,1 +1,1 @@
-Test: Why this README is different from the main forder?
+The design of EasyCrash based on crash and restart tests in NVMM. Leveraging Non-Volatile Memory Crash Tester(https://github.com/NVMCrashTester/NVCT) user can launch a number of crash tests simultaneously with [linux screen https://linuxize.com/post/how-to-use-linux-screen/]. 
