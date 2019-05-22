@@ -5,7 +5,7 @@ Step 1: Launch crash tests.
   User can launch a crash test by execute `sh run.sh /path/to/application` or a number of crash tests simultaneously by execute `sh screen_run`. To change the number of crash tests and the application use in crash tests, user can modify screen.sh.
  
 Step 2: Collect crash tests result.
-  The Intel PIN can cause 30x to 2000x slow down. It may take a while to finish crash tests. Once the crash tests finished, user can execute `python gether_result.py` to collect crash tests result and execute 'auto_recompute' to resume the application based on crash tests result. The data inconsistent rate of candicactes of critical data objects and application recomputability can be found in file "result_pid#.txt"  
+  The Intel PIN can cause 30x to 2000x slow down. It may take a while to finish crash tests. Once the crash tests finished, user can execute `python gether_result.py` to collect crash tests result and execute `sh autorecompute.sh` to resume the application based on crash tests result. The data inconsistent rate of candicactes of critical data objects and application recomputability can be found in file "result_pid#.txt"  
   
 TIPS:
 1. The intermediate result between step 1 and step 2 can achieve few GB or even more since NVCT dump the values from simulated main memory and simulated cache. 
