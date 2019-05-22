@@ -9,4 +9,6 @@ Step 2: Collect crash tests result.
   
 TIPS:
 1. The intermediate result between step 1 and step 2 can achieve few GB or even more since NVCT dump the values from simulated main memory and simulated cache. 
+2. To stop a set of crash tests, execute `sh delete.sh`.
+
 
